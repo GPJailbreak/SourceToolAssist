@@ -61,9 +61,9 @@ enum
 	CPMenu_RemoveZones,
 };
 
-#define CP_ZoneTypeStartColor {255, 0, 255, 255}
+#define CP_ZoneTypeStartColor {0, 255, 0, 255}
 #define CP_ZoneTypeNormalColor {155, 55, 155, 255}
-#define CP_ZoneTypeEndColor {255, 0, 255, 255}
+#define CP_ZoneTypeEndColor {255, 0, 0, 255}
 
 public void CP_GetZoneColor(int zonetype, int outcolor[4])
 {		
